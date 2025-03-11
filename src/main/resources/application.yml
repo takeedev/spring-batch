@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1444;databaseName=SpringBatch;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: P@ssw0rd
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    sql: debug
