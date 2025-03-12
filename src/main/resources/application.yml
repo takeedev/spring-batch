@@ -8,8 +8,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
 
-logging:
-  level:
-    sql: debug
+#logging:
+#  level:
+#    sql: debug

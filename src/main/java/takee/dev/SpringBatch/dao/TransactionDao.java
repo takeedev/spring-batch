@@ -6,7 +6,6 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
 import java.util.UUID;
 
 @Data
@@ -23,7 +22,7 @@ public class TransactionDao {
     @Column(name = "amount")
     private BigDecimal amount;
 
-    @Column(name = "date")
-    private Date date;
+    @Column(name = "dateTrans")
+    private String dateTrans;
 
 }
