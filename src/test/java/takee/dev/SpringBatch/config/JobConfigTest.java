@@ -29,5 +29,4 @@ class JobConfigTest {
         Assertions.assertThat(job.getName()).isEqualTo("myJob");
     }
 
-
 }
